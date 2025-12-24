@@ -52,8 +52,8 @@ public class Hooks {
         }
 
         // Always quit the driver to clean up resources.
-//        if (driver != null) {
-//            driver.quit();
-//        }
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
