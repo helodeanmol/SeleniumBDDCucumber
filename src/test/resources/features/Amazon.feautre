@@ -1,0 +1,15 @@
+@amazon_feature
+
+Feature: Address update
+
+  @amazon_login
+  Scenario: Valid login
+    Given user is on login page
+    When user enters valid credentials
+    Then user should be logged in
+
+  @amazon_logout
+  Scenario: Logout
+    Given user is logged in
+    When user clicks on logout button
+    Then user should be logged out

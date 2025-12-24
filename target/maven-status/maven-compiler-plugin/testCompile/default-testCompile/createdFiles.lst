@@ -1,0 +1,6 @@
+stepDefinitions\LoginSteps.class
+pages\LoginPage.class
+runners\TestRunner.class
+stepDefinitions\EcommerceSteps.class
+stepDefinitions\SCMSteps.class
+hooks\Hooks.class
